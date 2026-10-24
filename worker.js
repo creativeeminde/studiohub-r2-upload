@@ -46,7 +46,7 @@ export default {
     const key = `clips/${crypto.randomUUID()}.${extension}`;
 
     try {
-      await env.VIDEOS.put(key, request.body, {
+      await env.BUCKET.put(key, request.body, {
         httpMetadata: { contentType }
       });
 
