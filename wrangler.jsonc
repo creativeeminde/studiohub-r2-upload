@@ -1,0 +1,12 @@
+
+{
+  "name": "studiohub-r2-upload",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-24",
+  "r2_buckets": [
+    {
+      "binding": "BUCKET",
+      "bucket_name": "mysite"
+    }
+  ]
+}
